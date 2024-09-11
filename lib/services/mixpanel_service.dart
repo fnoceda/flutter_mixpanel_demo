@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mixpanel_flutter/mixpanel_flutter.dart';
 
 class MixPanelService {
-  static const mixpanelToken = 'f72d8c5eb64dee16ed14232e6b2041c5';
+  static const mixpanelToken = ''; // paste here your token ID
   static Mixpanel? _instance;
 
   static Future<Mixpanel> init() async {
